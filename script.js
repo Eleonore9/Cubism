@@ -6,7 +6,7 @@ function draw() {
 
  //draw items
  //style
- context.fillStyle = "yellow";
+ context.fillStyle = "red";
  context.strokeStyle = "purple";
  context.lineWidth = "1";
  //Draw a rectangle (fill and stroke)
@@ -52,9 +52,10 @@ function draw() {
  context.stroke();
 
  context.save();
- context.rotate(10*Math.PI/180);
+ context.rotate(-2*Math.PI/180);
 
- context.scale(2,2);
+ context.scale(1.5,1.5);
+ context.translate(40, 40);
 
 }
 

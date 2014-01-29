@@ -4,16 +4,20 @@
 }
 
 h1 {
-	margin-left: 30%;
+	text-align: center;
+}
+h3 {
+	text-align: center;
 }
 
 #canvas-id {
-	border: 3px solid grey;
+	border: 6px solid grey;
 	margin-top: 5%;
 	margin-left: 2%;
+	background-color: #393D37;
+	z-index: -99;
 }
 
 .buttons {
-	margin-top: 5%;
-	margin-left: 40%;
+	margin-top: 3%;
 }
