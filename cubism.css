@@ -1,3 +1,9 @@
+.navbar .brand {
+	text-align: center;
+	float: right;
+	width: 100%;
+}
+
 #container {
 	width: 960;
 	margin-left: 20%;
@@ -9,10 +15,12 @@ h1 {
 h3 {
 	text-align: center;
 }
-
+h4 {
+	text-align: center;
+}
 #canvas-id {
 	border: 6px solid grey;
-	margin-top: 5%;
+	margin-top: 1%;
 	margin-left: 2%;
 	background-color: #393D37;
 	z-index: -99;

@@ -1,17 +1,27 @@
 <html>
-  <head>
+	<head>
+    <meta charset="utf-8">
     <title>Cubism</title>
     <script type="text/javascript" src="script.js"></script>
     <link rel="stylesheet" href="cubism.css">
+    <link rel="stylesheet" href="bootstrap.min.css">
   </head>
   <body>
-	  <div id="container">
-		  <h1> Drawing with canvas </h1>
-		  <h3> Click on draw button several times to make the drawing evolve <h3>
+	<div class="navbar">
+	  <div class="navbar-inner">
+	    <h1> Drawing with canvas </h1> 
+		<h4> By <a target="_blank" href="http://codebar.io/">Codebar</a> &
+			<a target="_blank" href="http://elle-est-au-nord.com/">Eléonore</a></h4>
+
+	  </div>
+	</div>
+	<div id="container">
+
+		<h3> Click on draw button several times to make the drawing evolve <h3>
       		<canvas id="canvas-id" width="900" height="700"></canvas>
       		<div class="buttons">
-        		<button onclick="draw()">Draw</button>
-			<button onclick="reset()">Reset</button>
+        		<button class="btn btn-inverse" onclick="draw()">Draw</button>
+			<button class="btn btn-inverse" onclick="reset()">Reset</button>
       		</div>
     	  </div>
   </body>
