@@ -4,28 +4,39 @@
 	width: 100%;
 }
 
-#container {
+.container {
 	width: 960;
-	margin-left: 20%;
+	text-align:center;
 }
 
 h1 {
 	text-align: center;
 }
-h3 {
+h4 {
 	text-align: center;
 }
-h4 {
+h5 {
 	text-align: center;
 }
 #canvas-id {
 	border: 6px solid grey;
 	margin-top: 1%;
-	margin-left: 2%;
+	/*margin-left: 3%;*/
 	background-color: #393D37;
 	z-index: -99;
 }
 
 .buttons {
 	margin-top: 3%;
+}
+footer {
+  padding-bottom: 10px;
+  border-bottom: 5px solid #4c4066;
+  position: absolute;
+  width: 100%;
+}
+
+footer #content {
+  width: 1040px;
+  margin: 0px auto;
 }
